@@ -1,17 +1,21 @@
 /*
-const cityWhile = []
-stop = 'Stop'
-city = prompt('input a city of your choosing (to stop type: Stop)')
-count = 0
+let place = true
+cities = []
 
-while (city != 'Stop') {
-  city = prompt('enter another city or type Stop to end')
-  cityWhile.push(city)
-  count++
-  }
-  
-while (count >= 0) {
-  console.log(cityWhile[count])
-  count--
+while (place == true) {
+    location = prompt("Do you have a city to enter: ")
+    if (location == "yes") {
+    city = prompt("Enter a city: ")
+    cities.push(city)
+}   else {
+    place = false
+    }
+    }
+    
+count = 0
+while(cities.length !== count) {
+    let title = cities[count]
+    console.log(title.toLowerCase())
+    count++
 }
 */
