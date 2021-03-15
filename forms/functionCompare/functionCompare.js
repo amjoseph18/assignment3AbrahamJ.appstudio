@@ -1,4 +1,4 @@
-/*
+
 pass1 = prompt('enter a password')
 pass2 = prompt('re-enter your password')
 
@@ -9,6 +9,4 @@ function compare(pass1,pass2) {
     console.log('The passwords are not the same')
     }
     
- let comparePass = compare(pass1,pass2)
- console.log(comparePass)
- */
+
